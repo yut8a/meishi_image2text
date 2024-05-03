@@ -10,7 +10,7 @@ pip install -r requirement.txt
 同階層に`image_folder`と`key.json(Cloud Vision APIを使用するため)`を作成
 `image_folder`にとった名刺の写真を入れる
 
-環境下で`python　meishi_image2text.py `をたたくと各名刺の情報がまとめられたcsvファイルができる
+環境下で`python　meishi_image2text.py `をたたくと各名刺の情報がまとめられたcsvファイルができる(ロゴが非常に大きい名刺はロゴを間違えて名前と認識してしまう可能性が高い)
 
 本コードの参考文献は以下の通り
 
