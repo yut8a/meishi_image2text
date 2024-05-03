@@ -10,3 +10,8 @@ pip install -r requirement.txt
 `image_folder`にとった名刺の写真を入れる
 
 環境下で`python　meishi_image2text.py `をたたくと各名刺の情報がまとめられたcsvファイルができる
+
+本コードの参考文献は以下の通り
+
+(https://azure-recipe.kc-cloud.jp/cognitive-services-computer-vision-3/)
+(https://qiita.com/CJHJ/items/52c15ff636c52e93284d)
