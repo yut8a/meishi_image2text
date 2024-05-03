@@ -18,9 +18,13 @@ python -m venv meishi_image2text
 pip install -r requirement.txt
 ```
 ## 実行手順
-1. 同階層に`image_folder`と`key.json(Cloud Vision APIを使用するため)`を作成
-2. `image_folder`に撮られた写真がアップロードされる
-3. 環境下で`python　meishi_image2text.py `をたたくと各名刺の情報がまとめられたcsvファイルができる(ロゴが非常に大きい名刺はロゴを間違えて名前と認識してしまう可能性が高い)
+1. 同階層に`key.json(Cloud Vision APIキー)`をコピー
+2. `image_folder`内にOAuth 2.0 クライアント IDの認証`credential.json`をコピー
+3. `python　quickstart.py `をたたくと`token.json`ができる
+4. `python download_image.py `内のfolder_IDを画像が保存されているGoogleDriveのフォルダのIDに変更
+5. `python download_image.py `を実行し、`image_folder`内の画像ファイル以外を取り出す(png,jpgだけを取り出すように変更すればよい)
+6. `image_folder`に撮られた写真がアップロードされる
+7. 環境下で`python　meishi_image2text.py `をたたくと各名刺の情報がまとめられたcsvファイルができる(ロゴが非常に大きい名刺はロゴを間違えて名前と認識してしまう可能性が高い)
 
 本コードの参考文献は以下の通り
 
